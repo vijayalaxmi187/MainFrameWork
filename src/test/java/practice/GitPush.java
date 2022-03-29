@@ -6,6 +6,7 @@ public class GitPush {
 	@Test
 public void add() {
 	System.out.println("added to push");
+	System.out.println("add");
 	
 }
 }
