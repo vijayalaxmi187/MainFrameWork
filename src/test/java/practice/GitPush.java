@@ -8,6 +8,7 @@ public void add() {
 	System.out.println("added to push");
 	System.out.println("add");
 	System.out.println("hello");
+	System.out.println("bye");
 	
 	
 	
