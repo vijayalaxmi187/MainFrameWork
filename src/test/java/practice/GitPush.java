@@ -7,6 +7,7 @@ public class GitPush {
 public void add() {
 	System.out.println("added to push");
 	System.out.println("add");
+	System.out.println("hello");
 	
 }
 }
