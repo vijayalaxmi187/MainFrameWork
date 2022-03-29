@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test-runner 1">
+    <classes>
+      <class name="com.crm.autodesk.TC04Test.Create_Product_With_Team_SellingTest"/>
+      <class name="com.crm.autodesk.organizationTest.CreateOrganizationWithIndustryTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test-runner 2">
+    <classes>
+      <class name="com.crm.autodesk.contactTest.CreateContactTest"/>
+      <class name="com.crm.autodesk.TC04Test.Create_Product_By_ProductlinkTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Tes-runner 3t">
+    <classes>
+      <class name="com.crm.autodesk.contactTest.CreateContactWithOrganizationTest"/>
+      <class name="com.crm.autodesk.organizationTest.CreateOrganizationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
